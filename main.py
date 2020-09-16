@@ -1,4 +1,12 @@
 
+numbers = [1,2,3,4,5, 6.6, 6.9]
+for item in numbers:
+    if item % 2 == 0:
+        print(item, " is even number")
+    else: print('not even number ', item)
+
+
+""""
 numbers = [1,2,3,4,5]
 numbers.append(6)
 print(numbers)
@@ -8,7 +16,7 @@ numbers.remove(2.5)
 print(4 in numbers)
 print(len(numbers))
 
-""""
+
 
 i = 1
 while i <= 3:

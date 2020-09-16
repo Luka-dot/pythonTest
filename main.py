@@ -1,4 +1,15 @@
 
+numbers = [1,2,3,4,5]
+numbers.append(6)
+print(numbers)
+numbers.insert(2, 2.5)
+print(numbers)
+numbers.remove(2.5)
+print(4 in numbers)
+print(len(numbers))
+
+""""
+
 i = 1
 while i <= 3:
     print(i * '*')  # this will print '*' times i
@@ -13,7 +24,6 @@ print(names[0:3])   # prints names from index 0 to 2 (exludes 3)
 
 
 
-""""
 weight = int(input('enter your weight: '))
 unit_type = input('(K)g or (L)bs: ')
 

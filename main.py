@@ -1,4 +1,12 @@
 
+i = 1
+while i <= 10:
+    print(i * '*')  # this will print '*' times i
+    i = i + 1
+
+
+
+""""
 weight = int(input('enter your weight: '))
 unit_type = input('(K)g or (L)bs: ')
 
@@ -10,7 +18,7 @@ else:
     print('Your weight in KG is: ', convert)
 
 
-""""
+
 if kilos_or_not == 0:
     print('your weight is: ', weight , 'kg')
 else : print('your weight is: ', weight , 'lbs')

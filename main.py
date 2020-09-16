@@ -1,8 +1,15 @@
 
 i = 1
-while i <= 10:
+while i <= 3:
     print(i * '*')  # this will print '*' times i
     i = i + 1
+
+names = ["Lukas", "Mark", "Tania", "Sawyer", "Thaina"]
+print(names[2])
+print(names[-2])    # prints 2nd element from the end of array
+names[1] = "Marky Mark"
+print(names[1])
+print(names[0:3])   # prints names from index 0 to 2 (exludes 3)
 
 
 

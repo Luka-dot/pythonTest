@@ -1,3 +1,14 @@
+first_name = input('Enter first name: ')
+last_name = input('enter your last name: ')
+year_born = int(input('enter year you wore born: '))
+
+age = 2020 - year_born
+
+print('welcome ', first_name, last_name, ' you are ', age, ' old')
+
+
+
+"""
 
 myString = 'this is my String For Testing'
 
@@ -10,7 +21,6 @@ print('My' in myString)
 print(myString)
 
 
-"""
 myList = [1,2,3,4,5,6,7]
 count = 0
 for num in myList:

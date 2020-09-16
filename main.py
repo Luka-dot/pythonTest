@@ -1,10 +1,35 @@
 
+weight = int(input('enter your weight: '))
+unit_type = input('(K)g or (L)bs: ')
+
+if unit_type.upper() == "K":
+    convert = weight / 0.45
+    print("your weight in LB is: ", convert)
+else:
+    convert = weight * 0.45
+    print('Your weight in KG is: ', convert)
+
+
+""""
+if kilos_or_not == 0:
+    print('your weight is: ', weight , 'kg')
+else : print('your weight is: ', weight , 'lbs')
 
 
 
 
+price = 52
+print(price > 10 and price < 30)    # if both expressions are true => true
+print(price > 10 or price < 30)    # one of the expression is tru => true
+print(not price == 25)  # return opposite inverse value
 
-"""
+if price > 20:
+    print('not a good price')
+elif price < 30:    # greter then 20 and lower then 30
+    print('it is OK price')
+else: print('NOT a good price')
+
+
 
 print( 11 % 3)  # displays reminder
 print( 11 / 3)  # simple division

@@ -1,12 +1,22 @@
 
-numbers = [1,2,3,4,5, 6.6, 6.9]
+numbers = range(5, 10, 2)   # first argument is start value, 2nd arg is endin value, 3rd arg is step (by 2)
+for number in numbers:
+    print(number)
+
+for number in range(5):
+    print(number)
+
+
+""""
+
+numbers = [1, 2, 3, 4, 5, 6.6, 6.9]
 for item in numbers:
     if item % 2 == 0:
         print(item, " is even number")
     else: print('not even number ', item)
 
 
-""""
+
 numbers = [1,2,3,4,5]
 numbers.append(6)
 print(numbers)

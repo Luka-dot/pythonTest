@@ -1,11 +1,18 @@
 
+print('Im Awesome!!!')
+name = input('Are you awesome?')
+
+print(name)
+
+"""
+
 numbers = (1, 2, 2, 2, 3, 4, 5, 6.6, 6.9)  #  () is tupple. imutable!!!
 
 numbers.count(2)    #returns 3 = total number of 2s in tupple
 print(numbers.index(6.6))   # index on value 6.6
 
 
-"""
+
 
 numbers = range(5, 10, 2)   # first argument is start value, 2nd arg is endin value, 3rd arg is step (by 2)
 for number in numbers:

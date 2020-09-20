@@ -3,7 +3,12 @@ name = "Lukas"
 age = 33
 
 print(f' hi {name}. you are {age} years old.')  # f at the beginning means formatted string
-
+print(name[2])
+print(name[2:5])
+print(name[0:6:2])  # 3rd argument is step-over
+print(name[:4])     # starts at 0 and go to 4
+print(name[-2])     # go from back
+print(name[::-1])   # this way we can iterate through the string backwards
 
 """
 

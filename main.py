@@ -1,9 +1,13 @@
+username = input('enter your username:')
+password = input('enter your password:')
+
+print(f'Hello {username}, your password {("*" * len(password))} is {len(password)} letters long. ')
+
+"""
+
 birth_year = input('What year were you born?')
 current_age = 2020 - int(birth_year)
 print('You are ' + str(current_age) + ' old')
-
-
-"""
 
 name = '0123456'
 name = name + '7'

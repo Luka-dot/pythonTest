@@ -1,9 +1,30 @@
+cart = [
+    'notebook',
+    'glasses',
+    'toy',
+    'grapes'
+]
+
+print(cart[1][0:7:2])
+
+matrix = [
+    [1,2,3,4],
+    ['a', 'b','c','d'],
+    [[11,22,33,]]
+]
+
+print(matrix[2][0][2])
+new_cart = cart[::] # copy of the cart list
+new_cart.insert(2, 'clock')
+
+print(new_cart)
+
+"""
+
 username = input('enter your username:')
 password = input('enter your password:')
 
 print(f'Hello {username}, your password {("*" * len(password))} is {len(password)} letters long. ')
-
-"""
 
 birth_year = input('What year were you born?')
 current_age = 2020 - int(birth_year)

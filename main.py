@@ -17,7 +17,15 @@ print(matrix[2][0][2])
 new_cart = cart[::] # copy of the cart list
 new_cart.insert(2, 'clock')
 
+new_cart.extend([122, 133])
+
 print(new_cart)
+
+#   removing
+
+new_cart.pop()  # removes last item in the list .pop(2) -> removes whatever is on index 2
+new_cart.remove(2)  # removes value 2
+
 
 """
 

@@ -1,4 +1,23 @@
 
+users = [
+    {
+        'name': "ja",
+        'member': True,
+        'cart': [1,2,3,4]
+    },
+    {
+        'name': 'Moje',
+        'member': False,
+        'cart': [0, 'gas', 44, 'toy']
+    }
+]
+
+print(users)
+print(users[1]['cart'][2])
+
+
+"""
+
 sentence = ' '
 new_sentence = sentence.join(['Hi', 'my', 'name', 'is', 'Lukas'])
 another_way = ' '.join(['Hi', 'my', 'name', 'is', 'MOJE'])
@@ -6,7 +25,6 @@ another_way = ' '.join(['Hi', 'my', 'name', 'is', 'MOJE'])
 print(new_sentence)
 print(another_way)
 
-#fix this code so that it prints a sorted list of all of our friends (alphabetical). Scroll to see answer
 friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
 
 new_friend = ['Stanley']
@@ -20,7 +38,6 @@ print(remaining_of_list)
 print(h)
 print(n)
 
-"""
 
 # using this list,
 basket = ["Banana", "Apples", "Oranges", "Blueberries"];

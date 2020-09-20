@@ -1,4 +1,16 @@
 
+
+value = 5
+value -= 1
+value += 4
+value *= 2
+print(value)
+
+
+
+
+"""
+
 print(round(5.7589))
 
 print(abs(-55894))
@@ -9,7 +21,7 @@ a,b,c = 1,2,3
 print(a)
 print(c)
 
-"""
+
 
 numbers = (1, 2, 2, 2, 3, 4, 5, 6.6, 6.9)  #  () is tupple. imutable!!!
 

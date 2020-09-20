@@ -1,8 +1,13 @@
 
-print('Im Awesome!!!')
-name = input('Are you awesome?')
+print(round(5.7589))
 
-print(name)
+print(abs(-55894))
+
+print(bin(723424))
+
+a,b,c = 1,2,3
+print(a)
+print(c)
 
 """
 

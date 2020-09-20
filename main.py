@@ -1,3 +1,14 @@
+birth_year = input('What year were you born?')
+current_age = 2020 - int(birth_year)
+print('You are ' + str(current_age) + ' old')
+
+
+"""
+
+name = '0123456'
+name = name + '7'
+
+print(name)
 
 name = "Lukas"
 age = 33
@@ -10,7 +21,7 @@ print(name[:4])     # starts at 0 and go to 4
 print(name[-2])     # go from back
 print(name[::-1])   # this way we can iterate through the string backwards
 
-"""
+
 
 weather = "It's sunny"
 tomorow_weather = "\t its\'s \"kind of\" sunny \n Have a great day!"    # \ assumes char after is string. \t is tab. \n is new line

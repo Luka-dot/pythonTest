@@ -1,4 +1,22 @@
 
+sentence = ' '
+new_sentence = sentence.join(['Hi', 'my', 'name', 'is', 'Lukas'])
+another_way = ' '.join(['Hi', 'my', 'name', 'is', 'MOJE'])
+
+print(new_sentence)
+print(another_way)
+
+#fix this code so that it prints a sorted list of all of our friends (alphabetical). Scroll to see answer
+friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
+
+new_friend = ['Stanley']
+friends.append(new_friend[0])
+# friends.extend(new_friend)
+print(sorted(friends))
+
+
+"""
+
 # using this list,
 basket = ["Banana", "Apples", "Oranges", "Blueberries"];
 
@@ -16,9 +34,6 @@ print(basket.count('Apples'))
 basket.clear()
 print(basket)
 
-
-
-"""
 
 cart = [
     'notebook',

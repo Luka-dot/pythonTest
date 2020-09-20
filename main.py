@@ -1,9 +1,16 @@
 
+name = "Lukas"
+age = 33
+
+print(f' hi {name}. you are {age} years old.')  # f at the beginning means formatted string
+
+
+"""
+
 weather = "It's sunny"
 tomorow_weather = "\t its\'s \"kind of\" sunny \n Have a great day!"    # \ assumes char after is string. \t is tab. \n is new line
 print(tomorow_weather)
 
-"""
 
 long_string = '''
 WOW

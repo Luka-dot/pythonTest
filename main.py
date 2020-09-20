@@ -1,15 +1,23 @@
 
+weather = "It's sunny"
+tomorow_weather = "\t its\'s \"kind of\" sunny \n Have a great day!"    # \ assumes char after is string. \t is tab. \n is new line
+print(tomorow_weather)
+
+"""
+
+long_string = '''
+WOW
+O O
+---
+
+'''
+print(long_string)
 
 value = 5
 value -= 1
 value += 4
 value *= 2
 print(value)
-
-
-
-
-"""
 
 print(round(5.7589))
 

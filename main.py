@@ -14,6 +14,11 @@ friends.append(new_friend[0])
 # friends.extend(new_friend)
 print(sorted(friends))
 
+a,b,c, *remaining_of_list, h, n = [1,2,3,4,5,6,7,8,9,10]  # unpack 3 variables and remaing stays in "remaining" then last h assing last value
+print(a, b, c)
+print(remaining_of_list)
+print(h)
+print(n)
 
 """
 

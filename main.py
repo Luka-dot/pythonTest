@@ -12,11 +12,18 @@ users = [
     }
 ]
 
-print(users)
 print(users[1]['cart'][2])
 print(users[0].get('name'))
 print('cart' in users[0])
+print('Moje' in users[1].values())
+print(users[1].items())
 
+users2 = users.copy()
+
+users2[0].pop('member')
+print(users2[0])
+users2[1].update({'member': True})
+print(users2[1])
 
 """
 

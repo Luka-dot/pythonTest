@@ -1,3 +1,20 @@
+is_old = True
+is_licenced = True
+
+if is_old and is_licenced:
+    print('you are ok to drive')
+else:
+    print('You are not allowed!!!!')
+
+# ternary operator in Python
+# condition_if_true if  condition else condition_if_false
+is_friend = False
+can_message = "message allowed" if is_friend else "not allowed to message"
+print(can_message)
+
+
+"""
+
 
 users = [
     {
@@ -24,8 +41,6 @@ users2[0].pop('member')
 print(users2[0])
 users2[1].update({'member': True})
 print(users2[1])
-
-"""
 
 sentence = ' '
 new_sentence = sentence.join(['Hi', 'my', 'name', 'is', 'Lukas'])

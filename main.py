@@ -14,6 +14,8 @@ users = [
 
 print(users)
 print(users[1]['cart'][2])
+print(users[0].get('name'))
+print('cart' in users[0])
 
 
 """

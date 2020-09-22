@@ -1,4 +1,4 @@
-is_magic = False
+is_magic = True
 is_expert = False
 
 master_magician = "You are master magician" if is_magic and is_expert else "You need more training"
@@ -6,12 +6,19 @@ print(master_magician)
 
 if is_magic and is_expert:
     print("You are master magician")
-elif is_magic:
+elif is_magic or is_expert:
     print("You need more training")
-elif is_expert:
-    print("You are not Magic")
 else:
     print("you are neither")
+
+def user_input() :
+    while True:
+        u_input = input('Please input anything: ')
+        if len(u_input) > 3:
+            break
+        print(f'Invalid input: {u_input} ')
+
+user_input()
 
 """
 

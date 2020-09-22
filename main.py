@@ -1,14 +1,54 @@
+picture = [
+  [0,0,0,1,0,0,0],
+  [0,0,1,1,1,0,0],
+  [0,1,1,1,1,1,0],
+  [1,1,1,1,1,1,1],
+  [0,0,0,1,0,0,0],
+  [0,0,0,1,0,0,0]
+]
+
+line = ''
+
+for a in picture:
+    for symbol in a:
+        if symbol == 0:
+            line = line + ' '
+        elif symbol == 1:
+            line = line + '*'
+    print(line)
+    line = ''
+
+for row in picture:
+    for pixel in row:
+        if (pixel ==1):
+            print('*', end='')
+        else:
+            print(' ', end='')
+    print('')
+
+"""
+for line in picture:
+    while i < len(line):
+        if line[i] == 0:
+            print('.')
+            i += 1
+        elif line[i] == 1:
+            print('*')
+            i += 1
+
+"""
+
+
+
+
+"""
+
 for i, char in enumerate('Hellooo'):
     print(i, char)
 
 for a, char in enumerate(list(range(100))):
    if char == 50:
        print(a, " : ", char)
-
-
-
-
-"""
 
 my_list = [1,2,3,4,5,6,7,8,9,10]
 

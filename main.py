@@ -1,3 +1,20 @@
+is_magic = False
+is_expert = False
+
+master_magician = "You are master magician" if is_magic and is_expert else "You need more training"
+print(master_magician)
+
+if is_magic and is_expert:
+    print("You are master magician")
+elif is_magic:
+    print("You need more training")
+elif is_expert:
+    print("You are not Magic")
+else:
+    print("you are neither")
+
+"""
+
 is_old = True
 is_licenced = True
 
@@ -8,12 +25,10 @@ else:
 
 # ternary operator in Python
 # condition_if_true if  condition else condition_if_false
-is_friend = False
-can_message = "message allowed" if is_friend else "not allowed to message"
+is_friend = True
+can_message = "message allowed" if is_friend and is_old else "not allowed to message"
 print(can_message)
 
-
-"""
 
 
 users = [

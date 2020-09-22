@@ -1,3 +1,15 @@
+for i, char in enumerate('Hellooo'):
+    print(i, char)
+
+for a, char in enumerate(list(range(100))):
+   if char == 50:
+       print(a, " : ", char)
+
+
+
+
+"""
+
 my_list = [1,2,3,4,5,6,7,8,9,10]
 
 sum= 0
@@ -26,10 +38,6 @@ for item in user.values():
 
 for item in user.keys():
     print(item)
-
-
-
-"""
 
 is_magic = False
 is_expert = True

@@ -1,3 +1,13 @@
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+
+duplicates = []
+for value in some_list:
+    if some_list.count(value) > 1:
+        if value not in duplicates:
+            duplicates.append(value)
+
+print(duplicates)
+
 picture = [
   [0,0,0,1,0,0,0],
   [0,0,1,1,1,0,0],
@@ -7,9 +17,8 @@ picture = [
   [0,0,0,1,0,0,0]
 ]
 
-line = ''
-
 for a in picture:
+    line = ''
     for symbol in a:
         if symbol == 0:
             line = line + ' '

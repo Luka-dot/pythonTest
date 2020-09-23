@@ -1,3 +1,29 @@
+def highest_even_number(list):
+    highest_number = 0
+    for number in list:
+        if (number % 2 == 0) and number > highest_number:
+            highest_number = number
+    return highest_number
+
+print(highest_even_number([10,2,3,4,5,0,11]))
+
+# Scope - what variables do I have access to?
+def outer():
+    x = "local"
+    def inner():
+        nonlocal x
+        x = "nonlocal"
+        print("inner:", x)
+    inner()
+    print("outer:", x)
+outer()
+
+#1 - start with local
+#2 - Parent local?
+#3 - global
+#4 - built in python functions
+
+"""
 
 def checkDriverAge(age=0):
 #    age = input("What is your age?: ")
@@ -26,7 +52,6 @@ def super_func2(*args, **kwargs):
 
 print(super_func2(1,2,3,4,5, num1=5, num2=10))
 
-"""
 
 def say_hello(name='Darth Vader', emoji='\U0001f600'):
     print(f'Hello {name}  {emoji}')

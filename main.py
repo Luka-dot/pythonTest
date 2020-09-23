@@ -1,3 +1,22 @@
+
+def checkDriverAge(age=0):
+#    age = input("What is your age?: ")
+    if int(age) < 18:
+        print("Sorry, you are too young to drive this car. Powering off")
+    elif int(age) > 18:
+        print("Powering On. Enjoy the ride!");
+    elif int(age) == 18:
+        print("Congratulations on your first year of driving. Enjoy the ride!")
+
+checkDriverAge(18)
+
+"""
+
+def say_hello(name='Darth Vader', emoji='\U0001f600'):
+    print(f'Hello {name}  {emoji}')
+
+say_hello('Me')
+
 some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 
 duplicates = []
@@ -34,8 +53,6 @@ for row in picture:
         else:
             print(' ', end='')
     print('')
-
-"""
 for line in picture:
     while i < len(line):
         if line[i] == 0:

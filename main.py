@@ -5,6 +5,7 @@ class PlayerCharacter:
 
     def run(self):
         print("im running running")
+        return
 
     def magic_eight(selfself):
         return 8

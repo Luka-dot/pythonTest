@@ -1,14 +1,19 @@
 class PlayerCharacter:
-    def __init__(self, name):
+    def __init__(self, name, age):
         self.name = name
+        self.gae = age
 
     def run(self):
         print("im running running")
 
-player1 = PlayerCharacter("Morti")
+    def magic_eight(selfself):
+        return 8
+
+player1 = PlayerCharacter("Morti", 33)
 
 print(player1)
 player1.run()
+print(player1.magic_eight())
 
 
 

@@ -1,13 +1,18 @@
 class PlayerCharacter:
     # class object attribute
     membership = True
-    def __init__(self, name, age):
-        if (self.membership):
+    def __init__(self, name='anonimus', age=0):
+     #   if (age >= 18):
             self.name = name
-            self.gae = age
+            self.age = age
+    #    else:
+     #       print('You are not old enough')
 
     def shout(self):
-        print(f' My Name Is {self.name}')
+        if (self.age >= 18):
+            print(f' My Name Is {self.name}')
+        else:
+            print(f'Im {self.name}, but im to yong!')
         return
 
     def magic_eight(self):
@@ -17,13 +22,13 @@ class PlayerCharacter:
         attack = 55
         return attack
 
-player1 = PlayerCharacter("Morti", 33)
+player1 = PlayerCharacter("Morti")
 player2 = PlayerCharacter("Nori", 23)
 
 print(player2.name)
 player1.shout()
-print(player1.magic_eight())
-print(player2.specialAbility())
+# print(player1.magic_eight())
+# print(player2.specialAbility())
 
 
 

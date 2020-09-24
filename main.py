@@ -7,14 +7,20 @@ class PlayerCharacter:
         print("im running running")
         return
 
-    def magic_eight(selfself):
+    def magic_eight(self):
         return 8
 
-player1 = PlayerCharacter("Morti", 33)
+    def specialAbility(self):
+        attack = 55
+        return attack
 
-print(player1)
+player1 = PlayerCharacter("Morti", 33)
+player2 = PlayerCharacter("Nori", 23)
+
+print(player2.name)
 player1.run()
 print(player1.magic_eight())
+print(player2.specialAbility())
 
 
 

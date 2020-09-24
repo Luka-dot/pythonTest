@@ -1,3 +1,19 @@
+class PlayerCharacter:
+    def __init__(self, name):
+        self.name = name
+
+    def run(self):
+        print("im running running")
+
+player1 = PlayerCharacter("Morti")
+
+print(player1)
+player1.run()
+
+
+
+"""
+
 def highest_even_number(list):
     highest_number = 0
     for number in list:
@@ -5,25 +21,27 @@ def highest_even_number(list):
             highest_number = number
     return highest_number
 
-print(highest_even_number([10,2,3,4,5,0,11]))
+
+print(highest_even_number([10, 2, 3, 4, 5, 0, 11]))
+
 
 # Scope - what variables do I have access to?
+
 def outer():
     x = "local"
+
     def inner():
         nonlocal x
         x = "nonlocal"
         print("inner:", x)
+
     inner()
     print("outer:", x)
+
+
 outer()
 
-#1 - start with local
-#2 - Parent local?
-#3 - global
-#4 - built in python functions
 
-"""
 
 def checkDriverAge(age=0):
 #    age = input("What is your age?: ")
@@ -104,9 +122,6 @@ for line in picture:
             i += 1
 
 """
-
-
-
 
 """
 

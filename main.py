@@ -13,12 +13,12 @@ class Wizard(User):
 
 
 class Archer(User):
-    def __init__(self, name, power):
+    def __init__(self, name, num_arrows):
         self.name = name
-        self.power = power
+        self.num_arrows = num_arrows
 
     def attack(self):
-        print(f'Attacking with power of {self.power}')
+        print(f'Attacking with arrows: arrows left {self.num_arrows}')
 
 
 archer1 = Archer('Tonda', 7)

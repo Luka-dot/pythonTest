@@ -23,6 +23,8 @@ class Archer(User):
 
 archer1 = Archer('Tonda', 7)
 print(archer1.attack())
+print(isinstance(archer1, Archer))
+print(isinstance(archer1, User))
 
 """
 

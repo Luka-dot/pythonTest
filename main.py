@@ -1,3 +1,47 @@
+class PlayerCharacter:
+    # class object attribute
+    membership = True
+    def __init__(self, name='anonimus', age=0):
+     #   if (age >= 18):
+            self.name = name
+            self.age = age
+    #    else:
+     #       print('You are not old enough')
+
+    @classmethod
+    def adding_things(clscls, num1, num2):
+        return num1 + num2
+
+    def shout(self):
+        if (self.age >= 18):
+            print(f' My Name Is {self.name}')
+        else:
+            print(f'Im {self.name}, but im to yong!')
+        return
+
+    def magic_eight(self):
+        return 8
+
+    def specialAbility(self):
+        attack = 55
+        return attack
+
+player1 = PlayerCharacter("Morti")
+player2 = PlayerCharacter("Nori", 23)
+
+print(player2.adding_things(5,5))
+# @classmetod can be called even without creating class copy
+print(PlayerCharacter.adding_things(3, 30))
+
+print(player2.name)
+player1.shout()
+# print(player1.magic_eight())
+# print(player2.specialAbility())
+
+
+"""
+
+
 #Given the below class:
 class Cat:
     species = 'mammal'
@@ -22,39 +66,6 @@ print(f"The oldest cat is {get_oldest_cat(cat1.age, cat2.age, cat3.age)} years o
 
 
 
-"""
-
-class PlayerCharacter:
-    # class object attribute
-    membership = True
-    def __init__(self, name='anonimus', age=0):
-     #   if (age >= 18):
-            self.name = name
-            self.age = age
-    #    else:
-     #       print('You are not old enough')
-
-    def shout(self):
-        if (self.age >= 18):
-            print(f' My Name Is {self.name}')
-        else:
-            print(f'Im {self.name}, but im to yong!')
-        return
-
-    def magic_eight(self):
-        return 8
-
-    def specialAbility(self):
-        attack = 55
-        return attack
-
-player1 = PlayerCharacter("Morti")
-player2 = PlayerCharacter("Nori", 23)
-
-print(player2.name)
-player1.shout()
-# print(player1.magic_eight())
-# print(player2.specialAbility())
 
 def highest_even_number(list):
     highest_number = 0

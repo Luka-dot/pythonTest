@@ -1,3 +1,16 @@
+class User():
+    def sign_in(selfself):
+        print('logged in')
+
+class Wizard(User):
+    pass
+
+class Archer(User):
+    pass
+
+
+"""
+
 class PlayerCharacter:
     # class object attribute
     membership = True
@@ -37,9 +50,6 @@ print(player2.name)
 player1.shout()
 # print(player1.magic_eight())
 # print(player2.specialAbility())
-
-
-"""
 
 
 #Given the below class:

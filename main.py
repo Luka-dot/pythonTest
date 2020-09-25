@@ -22,9 +22,16 @@ class Archer(User):
 
 
 archer1 = Archer('Tonda', 7)
+wizard1 = Wizard('Rincewind', -1)
 print(archer1.attack())
 print(isinstance(archer1, Archer))
 print(isinstance(archer1, User))
+
+def player_attack(char):
+    char.attack()
+
+player_attack(wizard1)
+
 
 """
 

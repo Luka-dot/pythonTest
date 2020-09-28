@@ -1,4 +1,12 @@
 from functools import reduce
+my_list = [1,2,3,4,5]
+
+print(list(map(lambda item: item*2, my_list)))
+
+
+
+
+'''
 
 #1 Capitalize all of the pet names and print the list
 my_pets = ['sisi', 'bibi', 'titi', 'carla']
@@ -51,3 +59,5 @@ print(list(zip(my_list, your_list)))
 
 # first arg is function, 2nd are data, 3rd is starting value. If not defind starts from 0
 print(reduce(acumulator, my_list, 100))
+
+'''

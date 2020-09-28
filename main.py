@@ -1,13 +1,4 @@
-class SuperList(list):
-  def __len__(self):
-    return 1000
 
-super_list1 = SuperList();
-
-print(len(super_list1))
-super_list1.append(5)
-print(super_list1[0])
-print(issubclass(list, object))
 
 class User():
     def __init__(self, email):
@@ -65,10 +56,36 @@ class Archer(User):
     def attack(self):
         print(f'Attacking with arrows: arrows left {self.num_arrows}')
 
+    def run(self):
+        print(f'Run Forest run')
+
+class hybrid(Wizard, Archer):
+    def __init__(self, name, power, email, num_arrows):
+        Archer.__init__(self, name, num_arrows)
+
+hb1 = hybrid('Tonads', 77, 'tuj@gm.com', 100)
+
+print(hb1.attack())
+
 wizard1 = Wizard('Moje', 44, 'moje@gm.com')
 print(wizard1.email)
 
+# Supercalss concept.
+
+
+
 """
+
+class SuperList(list):
+  def __len__(self):
+    return 1000
+
+super_list1 = SuperList();
+
+print(len(super_list1))
+super_list1.append(5)
+print(super_list1[0])
+print(issubclass(list, object))
 
 class Pets():
     animals = []

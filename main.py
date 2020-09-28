@@ -60,10 +60,11 @@ class Archer(User):
         print(f'Run Forest run')
 
 class hybrid(Wizard, Archer):
-    def __init__(self, name, power, email, num_arrows):
+    def __init__(self, name, power, num_arrows):
         Archer.__init__(self, name, num_arrows)
+        Wizard.__init__(self, name, power)
 
-hb1 = hybrid('Tonads', 77, 'tuj@gm.com', 100)
+hb1 = hybrid('Tonads', 77, 100)
 
 print(hb1.attack())
 

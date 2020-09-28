@@ -1,3 +1,22 @@
+#########  DECORATORS   ################
+
+my_list = []
+
+my_list2 = [char for char in 'hello']
+
+print(my_list2)
+# same as below function but using decorators
+for char in 'hello':
+    my_list.append(char)
+
+print(my_list)
+
+
+
+'''
+
+
+#####  LAMBDA functions
 from functools import reduce
 
 my_list = [1,2,3,4,5]
@@ -14,9 +33,6 @@ print(list(map(lambda  item: item*item, another_list)))
 a = [(0,2), (4,3), (9,9), (10,-1)]
 a.sort(key=lambda number: number[1])
 print(a)
-
-
-'''
 
 #1 Capitalize all of the pet names and print the list
 my_pets = ['sisi', 'bibi', 'titi', 'carla']

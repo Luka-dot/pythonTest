@@ -1,3 +1,5 @@
+from functools import reduce
+
 def multiply_by2(item):
     return item * 2
 
@@ -11,3 +13,8 @@ def only_odd(item):
 
 print(list(filter(only_odd, my_list)))
 print(list(zip(my_list, your_list)))
+
+def acumulator(accumultate, item):
+    return accumultate + item
+
+print(reduce(acumulator, my_list, 100))

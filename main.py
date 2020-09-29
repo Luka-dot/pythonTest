@@ -4,7 +4,10 @@ my_list = []
 
 my_list2 = [char for char in 'hello']
 
+my_list3 = [number for number in range(0, 100)]
+
 print(my_list2)
+print(my_list3)
 # same as below function but using decorators
 for char in 'hello':
     my_list.append(char)

@@ -6,8 +6,10 @@ my_list2 = [char for char in 'hello']
 
 my_list3 = [number for number in range(0, 100)]
 
+my_list4 = [number**2 for number in range(0, 100) if number %2 == 0]
+
 print(my_list2)
-print(my_list3)
+print(my_list4)
 # same as below function but using decorators
 for char in 'hello':
     my_list.append(char)

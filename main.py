@@ -42,7 +42,7 @@ for value in some_list:
 print(duplicates)
 
 
-duplicates2= [x for x in some_list if some_list.count(x)]
+duplicates2= set([x for x in some_list if some_list.count(x) > 1])
 print(f'duplicates2 :', duplicates2)
 
 '''

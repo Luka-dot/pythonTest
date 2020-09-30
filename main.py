@@ -15,7 +15,17 @@ for char in 'hello':
     my_list.append(char)
 
 print(my_list)
+#   set is same as List just change brackets
+my_list2set = {char for char in 'hello'}
 
+simple_dic = {
+    'a': 1,
+    'b': 2
+}
+
+my_dict = {k:v**2 for k,v in simple_dic.items()
+           if v%2==0}
+print(my_dict)
 
 
 '''
